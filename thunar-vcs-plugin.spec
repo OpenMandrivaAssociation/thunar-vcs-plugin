@@ -11,7 +11,7 @@ Source0:	http://archive.xfce.org/src/thunar-plugins/%{name}/%{url_ver}/%{name}-%
 BuildRequires:	pkgconfig(thunarx-2) >= 1.2.0
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(exo-1) >= 0.6.0
-BuildRequires:	pkgconfig(libxfce4util-1.0) >= 4.8.0
+BuildRequires:	pkgconfig(libxfce4util-1.0) >= 4.11
 BuildRequires:	pkgconfig(gtk+-2.0) >= 2.14.0
 BuildRequires:	pkgconfig(glib-2.0) >= 2.18.0
 BuildRequires:	pkgconfig(gobject-2.0) >= 2.18.0

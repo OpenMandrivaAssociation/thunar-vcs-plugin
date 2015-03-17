@@ -3,7 +3,7 @@
 Summary:	VCS support for Thunar file manager
 Name:		thunar-vcs-plugin
 Version:	0.1.4
-Release:	2
+Release:	3
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 Url:		http://goodies.xfce.org/projects/thunar-plugins/%{name}

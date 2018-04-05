@@ -1,3 +1,4 @@
----
-sources:
+removed_sources:
   thunar-vcs-plugin-0.1.4.tar.bz2: 221c633ec2bdf7c0d9d008ad9cd5094ddbc90ce1
+sources:
+  thunar-vcs-plugin-0.1.5.tar.bz2: e1139bf900a8b68027c770ad4b1e11a0060e5d28

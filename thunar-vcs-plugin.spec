@@ -1,9 +1,10 @@
-%define url_ver %(echo %{version} | cut -c 1-3)
+%define url_ver %(echo %{version} | cut -d. -f1,2)
+%define _disable_rebuild_configure 1
 
 Summary:	VCS support for Thunar file manager
 Name:		thunar-vcs-plugin
-Version:	0.1.4
-Release:	3
+Version:	0.1.5
+Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 Url:		http://goodies.xfce.org/projects/thunar-plugins/%{name}
@@ -49,6 +50,6 @@ The current features are:
 %files -f %{name}.lang
 %doc AUTHORS ChangeLog NEWS README
 %{_libdir}/thunarx-2/thunar-vcs-plugin.so
-%{_libdir}/tvp-git-helper
-%{_libdir}/tvp-svn-helper
+%{_libexecdir}/tvp-git-helper
+%{_libexecdir}/tvp-svn-helper
 %{_iconsdir}/hicolor/*/apps/*

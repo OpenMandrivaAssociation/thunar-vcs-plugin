@@ -11,9 +11,9 @@ Url:		http://goodies.xfce.org/projects/thunar-plugins/%{name}
 Source0:	http://archive.xfce.org/src/thunar-plugins/%{name}/%{url_ver}/%{name}-%{version}.tar.bz2
 BuildRequires:	pkgconfig(thunarx-3) >= 1.2.0
 BuildRequires:	intltool
-BuildRequires:	pkgconfig(exo-1) >= 0.6.0
+BuildRequires:	pkgconfig(exo-2) >= 0.6.0
 BuildRequires:	pkgconfig(libxfce4util-1.0) >= 4.11
-BuildRequires:	pkgconfig(gtk+-2.0) >= 2.14.0
+BuildRequires:	pkgconfig(gtk+-3.0) >= 2.14.0
 BuildRequires:	pkgconfig(glib-2.0) >= 2.18.0
 BuildRequires:	pkgconfig(gobject-2.0) >= 2.18.0
 BuildRequires:	pkgconfig(apr-1) >= 0.9.7

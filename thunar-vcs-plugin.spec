@@ -9,6 +9,11 @@ License:	GPLv2+
 Group:		Graphical desktop/Xfce
 Url:		https://goodies.xfce.org/projects/thunar-plugins/%{name}
 Source0:	http://archive.xfce.org/src/thunar-plugins/%{name}/%{url_ver}/%{name}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(thunarx-3) >= 1.2.0
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(exo-2) >= 0.6.0
